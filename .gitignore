@@ -69,11 +69,5 @@ UserSettings/
 # 限られたエディタでしか使用しないため除外
 *.DotSettings
 
+# StreamingAssetsフォルダがビルド時に作られて何故か空フォルダが残る
 StreamingAssets.meta
-
-Assets/AddressableAssetsData/link.xml
-Assets/AddressableAssetsData/link.xml.meta
-Assets/AddressableAssetsData/Android
-Assets/AddressableAssetsData/Android.meta
-Assets/AddressableAssetsData/Windows
-Assets/AddressableAssetsData/Windows.meta
