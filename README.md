@@ -11,22 +11,28 @@ Meta Quest 3でMRアプリを作るためのUnityのテンプレートプロジ�
   - 家具
   - 壁、床、天井
   - 深度センサーによってスキャンされたメッシュ
+- コントローラーのトリガーを押すと玉と豆腐を発射する
+  - おまけ機能
 
 # 使い方
-1. このリポジトリーをcloneする
-2. プロジェクト名の変更
-   1. ルートディレクトリ名を任意のプロジェクト名に変更する
-   2. Unity Hubにプロジェクトを登録する
-   3. /quest3-mr-template.slnを削除する
-3. プロジェクトを開く
-   1. 任意のUnityバージョンに変更してもOK
-4. ビルド対象プラットフォームをAndroidに変更する
-5. 任意の方法でOculus Integrationをインポートする
-   - [Asset Store](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022)が簡単なのでおすすめ
-   - 全てのファイルをインポートすると時間が掛かるので一部のみでOK
-     - OculusProjectConfig.asset
-     - Platformディレクトリ
-     - SampleFrameworkディレクトリ
-     - VRディレクトリ
-6. /App/Scenes/MrSceneを開く
-7. 色々追加していく
+1. このリポジトリをcloneする
+2. ルートディレクトリ名を任意のプロジェクト名に変更する
+3. Unity Hubにプロジェクトを登録する
+4. プロジェクトを開く
+    - 任意のUnityバージョンに変更してもOK
+    - プロジェクトを開いたらコンソールに「'OVRInput' could not be found」エラーが出るがこのあとの手順で消えるため無視でOK
+5. ビルド対象プラットフォームをAndroidに変更する
+6. 任意の方法でOculus Integrationをインポートする
+    - [Asset Store](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022)が簡単なのでおすすめ
+    - 全てのファイルをインポートすると時間が掛かるので一部のみでOK
+      - OculusProjectConfig.asset
+      - Platformディレクトリ
+      - SampleFrameworkディレクトリ
+      - VRディレクトリ
+7. /App/Scenes/MrSceneを開く
+8. 色々追加していく
+
+# 使用しているライブラリ
+- [unity-reference-viewer](https://github.com/ina-amagami/unity-reference-viewer/blob/master/LICENSE.txt)
+  - 開発が便利になる
+  - 必須ではないので消してもOK
