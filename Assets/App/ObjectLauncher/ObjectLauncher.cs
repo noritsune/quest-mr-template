@@ -26,6 +26,19 @@ public class ObjectLauncher : MonoBehaviour
                 transform.rotation
             );
             obj.GetComponent<Rigidbody>().AddForce(transform.forward * _force);
+            ChangeColorRandomly(obj);
         }
+    }
+
+    // 新しい関数: オブジェクトの色をランダムに変更
+    void ChangeColorRandomly(GameObject obj)
+    {
+        var ren = obj.GetComponent<Renderer>();
+        if (!ren) return;
+
+        Color randomColor = new Color(
+            Random.value, Random.value, Random.value
+        );
+        ren.material.color = randomColor;
     }
 }
