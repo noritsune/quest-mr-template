@@ -16,7 +16,7 @@ Meta QuestでMRアプリを作るためのUnityのテンプレートプロジェ
 - コントローラーのトリガーを押すと玉と豆腐を発射する
   - おまけ機能
 
-![Demo GIF](demo.gif)
+![Demo GIF](ReadmeSrc/demo.gif)
 
 # 使い方
 1. 緑の「Use This Template」ボタンからリポジトリを作成する
@@ -28,13 +28,29 @@ Meta QuestでMRアプリを作るためのUnityのテンプレートプロジェ
 5. ビルド対象プラットフォームをAndroidに変更する
 6. 任意の方法でOculus Integrationをインポートする
     - [Asset Store](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022)が簡単なのでおすすめ
+    - OculusProjectConfig.assetを上書きしないように注意
+      - 上書きした場合はgit revertで元に戻す
+      - 正しく設定されているかは後の手順で確認できる
     - 全てのファイルをインポートすると時間が掛かるので一部のみでOK
-      - OculusProjectConfig.asset
       - Platformディレクトリ
       - SampleFrameworkディレクトリ
       - VRディレクトリ
-7. /App/Scenes/MrSceneを開く
-8. 色々追加していく
+    - ![import_oculus_integration](ReadmeSrc/import_oculus_integration.png)
+
+7. OculusProjectConfig.assetの設定が適切であることを確認する
+    - [ ] 「Quest 3」にチェックが入っている
+    - [ ] Hand Tracking Supportが「Controllers And Hands」になっている
+    - [ ] Scene Supportが「必須」になっている
+    - [ ] Passthrough Supportが「必須」になっている
+    - ![oculus_project_config](ReadmeSrc/oculus_project_config.png)
+8. Project Settings > XR Plugin Managementの設定が適切であることを確認する
+    - [ ] PC環境で「Oculus」にチェックが入っている
+      - Quest Link + Unity Editorで動作確認する場合ために必要
+    - [ ] Android環境で「Oculus」にチェックが入っている
+      - Quest単体で動かすために必要 
+9. Project Settings > XR Plugin Management > Oculus内で「Oculus」にチェックが入っていることを確認する
+10. /App/Scenes/MrScene.unityを開く
+11. 色々追加していく
 
 # 使用しているライブラリ
 - [unity-reference-viewer](https://github.com/ina-amagami/unity-reference-viewer/blob/master/LICENSE.txt)
