@@ -26,7 +26,7 @@ Meta QuestでMRアプリを作るためのUnityのテンプレートプロジェ
     - 任意のUnityバージョンに変更してもOK
     - プロジェクトを開いたらコンソールに「'OVRInput' could not be found」エラーが出るがこのあとの手順で消えるため無視でOK
 5. ビルド対象プラットフォームをAndroidに変更する
-6. App/Scenes/MrScene.unityを開く
+6. App/Scenes/MrTemplate.unityを開く
 7. 色々追加していく
 
 # 使用しているライブラリ
