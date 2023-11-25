@@ -19,7 +19,7 @@ Meta QuestでMRアプリを作るためのUnityのテンプレートプロジェ
 ![Demo GIF](ReadmeSrc/demo.gif)
 
 # 使い方
-1. 緑の「Use This Template」ボタンからリポジトリを作成する
+1. 緑の「Use this template」ボタンからリポジトリを作成する
 2. 作成されたリポジトリをローカルにcloneする
 3. Unity Hubにプロジェクトを登録する
 4. プロジェクトを開く
@@ -37,7 +37,7 @@ Meta QuestでMRアプリを作るためのUnityのテンプレートプロジェ
       - VRディレクトリ
     - ![import_oculus_integration](ReadmeSrc/import_oculus_integration.png)
 
-7. OculusProjectConfig.assetの設定が適切であることを確認する
+7. Oculus/OculusProjectConfig.assetの設定が適切であることを確認する
     - [ ] 「Quest 3」にチェックが入っている
     - [ ] Hand Tracking Supportが「Controllers And Hands」になっている
     - [ ] Scene Supportが「必須」になっている
@@ -48,8 +48,8 @@ Meta QuestでMRアプリを作るためのUnityのテンプレートプロジェ
       - Quest Link + Unity Editorで動作確認する場合ために必要
     - [ ] Android環境で「Oculus」にチェックが入っている
       - Quest単体で動かすために必要 
-9. Project Settings > XR Plugin Management > Oculus内で「Oculus」にチェックが入っていることを確認する
-10. /App/Scenes/MrScene.unityを開く
+9. Project Settings > XR Plugin Management > Oculus内の「Quest 3」にチェックが入っていることを確認する
+10. App/Scenes/MrScene.unityを開く
 11. 色々追加していく
 
 # 使用しているライブラリ
