@@ -26,31 +26,8 @@ Meta QuestでMRアプリを作るためのUnityのテンプレートプロジェ
     - 任意のUnityバージョンに変更してもOK
     - プロジェクトを開いたらコンソールに「'OVRInput' could not be found」エラーが出るがこのあとの手順で消えるため無視でOK
 5. ビルド対象プラットフォームをAndroidに変更する
-6. 任意の方法でOculus Integrationをインポートする
-    - [Asset Store](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022)が簡単なのでおすすめ
-    - OculusProjectConfig.assetを上書きしないように注意
-      - 上書きした場合はgit revertで元に戻す
-      - 正しく設定されているかは後の手順で確認できる
-    - 全てのファイルをインポートすると時間が掛かるので一部のみでOK
-      - Platformディレクトリ
-      - SampleFrameworkディレクトリ
-      - VRディレクトリ
-    - ![import_oculus_integration](ReadmeSrc/import_oculus_integration.png)
-
-7. Oculus/OculusProjectConfig.assetの設定が適切であることを確認する
-    - [ ] 「Quest 3」にチェックが入っている
-    - [ ] Hand Tracking Supportが「Controllers And Hands」になっている
-    - [ ] Scene Supportが「必須」になっている
-    - [ ] Passthrough Supportが「必須」になっている
-    - ![oculus_project_config](ReadmeSrc/oculus_project_config.png)
-8. Project Settings > XR Plugin Managementの設定が適切であることを確認する
-    - [ ] PC環境で「Oculus」にチェックが入っている
-      - Quest Link + Unity Editorで動作確認する場合ために必要
-    - [ ] Android環境で「Oculus」にチェックが入っている
-      - Quest単体で動かすために必要 
-9. Project Settings > XR Plugin Management > Oculus内の「Quest 3」にチェックが入っていることを確認する
-10. App/Scenes/MrScene.unityを開く
-11. 色々追加していく
+6. App/Scenes/MrScene.unityを開く
+7. 色々追加していく
 
 # 使用しているライブラリ
 - [unity-reference-viewer](https://github.com/ina-amagami/unity-reference-viewer/blob/master/LICENSE.txt)
