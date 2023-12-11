@@ -19,13 +19,12 @@ Meta QuestでMRアプリを作るためのUnityのテンプレートプロジェ
 ![Demo GIF](ReadmeSrc/demo.gif)
 
 # 使い方
-1. 緑の「Use this template」ボタンからリポジトリを作成する
+1. GitHubのページの緑の「Use this template」ボタンからリポジトリを作成する
 2. 作成されたリポジトリをローカルにcloneする
 3. Unity Hubにプロジェクトを登録する
 4. プロジェクトを開く
-    - 任意のUnityバージョンに変更してもOK
-    - プロジェクトを開いたらコンソールに「'OVRInput' could not be found」エラーが出るがこのあとの手順で消えるため無視でOK
 5. ビルド対象プラットフォームをAndroidに変更する
+    - アセットをたくさん追加したあとにやると時間が掛かるので今やる
 6. App/Scenes/MrTemplate.unityを開く
 7. 色々追加していく
 
