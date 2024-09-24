@@ -21,4 +21,5 @@
   <uses-permission android:name="com.oculus.permission.USE_ANCHOR_API" />
   <uses-feature android:name="com.oculus.feature.PASSTHROUGH" android:required="true" />
   <uses-permission android:name="com.oculus.permission.USE_SCENE" />
+  <uses-feature android:name="com.oculus.feature.BOUNDARYLESS_APP" android:required="true" />
 </manifest>
