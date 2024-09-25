@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetDeviceTypes: 020000000300000004000000
   allowOptional3DofHeadTracking: 0
-  handTrackingSupport: 1
+  handTrackingSupport: 0
   handTrackingFrequency: 1
   handTrackingVersion: 2
   anchorSupport: 1
@@ -40,6 +40,6 @@ MonoBehaviour:
   _processorFavor: 0
   systemSplashScreen: {fileID: 0}
   systemSplashScreenType: 0
-  _systemLoadingScreenBackground: 0
+  _systemLoadingScreenBackground: 1
   ovrPluginMd5Win64: d72fb658f3d9064293fb2241e5525905adadace61e9e51a7491392bf1fd157f8
   ovrPluginMd5Android: 5ef6da3aad630673da6447f50e1b2d8a5372d8b6ed8e045ec3258082cbee89a4
